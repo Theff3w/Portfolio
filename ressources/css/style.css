@@ -20,7 +20,37 @@ body {
   color: var(--text-color);
   height: 100vh;
 }
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Style pour le bouton Info */
+#btnInfo {
+  background-color: #3498db63; 
+  color: #fff; 
+}
 
+/* Style pour le bouton Projet */
+#btnProjet {
+  background-color: #e74d3c6b; 
+  color: #fff; 
+}
+
+/* Style pour le bouton Contact */
+#btnContact {
+  background-color: #27ae5f75; 
+  color: #fff; 
+}
+
+.button:hover {
+  opacity: 0.8;
+}
 /*************************************************************
 ************************** Header ****************************
 **************************************************************/
@@ -82,10 +112,10 @@ main {
 
 }
 .hidden {
-
+  display: none;
 }
 .visible {
-
+  display: block;
 }
 .date {
   font-style: italic;
